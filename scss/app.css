@@ -1,0 +1,46 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 14px 10px;
+  list-style-type: none;
+  font-size: 1.2em;
+  display: block;
+  justify-content: space-evenly;
+}
+@media screen and (min-width: 576px) {
+  ul {
+    display: flex;
+    text-align: center;
+  }
+}
+ul li {
+  margin-right: 10px;
+}
+
+.paragrafoCorsi-1 {
+  padding-left: 80px;
+  padding-right: 80px;
+  color: purple;
+}
+
+.paragrafoCorsi-2 {
+  padding-left: 160px;
+  padding-right: 160px;
+  color: purple;
+}
+
+.paragrafoCorsi-3 {
+  padding-left: 240px;
+  padding-right: 240px;
+  color: purple;
+}
+
+.paragrafoCorsi-4 {
+  padding-left: 320px;
+  padding-right: 320px;
+  color: purple;
+}/*# sourceMappingURL=app.css.map */

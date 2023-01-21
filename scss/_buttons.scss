@@ -1,0 +1,14 @@
+@mixin mainButton($seaColor, $lightseaColor, $peaceColor, $seaColor) {
+  padding: 10px 20px;
+  color: $seaColor;
+  background-color: $lightseaColor;
+  &:hover {
+    color: $deathColor;
+    background-color: $peaceColor;
+    border: 2px solid $seaColor;
+  }
+}
+
+.buttonBlue {
+  @include mainButton($seaColor, $lightseaColor, $peaceColor, $seaColor);
+}

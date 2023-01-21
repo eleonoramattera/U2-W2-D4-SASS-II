@@ -1,0 +1,35 @@
+@import "reset";
+@import "colors";
+@import "buttons";
+
+ul {
+  padding: 14px 10px;
+  list-style-type: none;
+  font-size: 1.2em;
+  display: block;
+  justify-content: space-evenly;
+  background-color: $darkSea;
+  @media screen and (min-width: 576px) {
+    display: flex;
+    text-align: center;
+  }
+  li {
+    margin-right: 10px;
+    color: $peaceColor;
+  }
+}
+
+@for $p from 1 to 5 {
+  .paragrafoCorsi-#{$p} {
+    padding-left: $p * 50px;
+    padding-right: $p * 50px;
+    color: purple;
+  }
+}
+
+.paragrafoCorsi-#{$p} {
+  @media screen and (min-width: 576px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
